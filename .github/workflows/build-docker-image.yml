@@ -42,7 +42,7 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            rpagliuca/go-simple-app:latest
+            joaoc4/minicurso-docker:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
