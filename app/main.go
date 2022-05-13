@@ -26,7 +26,7 @@ func myHandler(w http.ResponseWriter, r *http.Request) {
 		Echo    string `json:"echo"`
 	}{
 		Success: true,
-		Message: "Request executado com sucesso",
+		Message: "Request executado com sucesso !!!",
 		Echo:    string(body),
 	}
 
